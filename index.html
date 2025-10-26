@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="km">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +11,19 @@
         body {
             font-family: 'Kantumruy Pro', sans-serif;
         }
+        
         .gradient-bg {
             background: linear-gradient(135deg, #1877F2 0%, #3B5998 100%);
         }
-        h1, h2, h3 {
+        
+        h1,
+        h2,
+        h3 {
             font-weight: 700;
         }
     </style>
 </head>
+
 <body class="bg-gray-100 text-gray-800">
 
     <!-- Header -->
@@ -45,13 +51,13 @@
         </div>
     </section>
 
-    
+
     <!-- Key Topics Section (from previous step) -->
     <section id="key-topics" class="bg-gray-50 py-16 px-6">
         <div class="container mx-auto max-w-5xl">
             <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">គន្លឹះសំខាន់ៗដែលអ្នកនឹងបានរៀន</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                
+
                 <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <p class="text-lg font-semibold text-blue-700">របៀប Boost Page នៅលើ Facebook ដោយមានប្រសិទ្ធភាពខ្ពស់ | How to Boost Your Facebook Page Effectively in 2025</p>
                 </div>
@@ -64,7 +70,7 @@
                 <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <p class="text-lg font-semibold text-green-700">អ្នកអាជីវកម្មតូចៗត្រូវដឹង! | Facebook Page Boost Strategy for Small Business Owners</p>
                 </div>
-                 <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <p class="text-lg font-semibold text-purple-700">Boost Page ឲ្យទៅដល់អតិថិជនពិតៗ 🎯 | Targeting Secrets for Facebook Ads Success</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -94,13 +100,7 @@
             </p>
             <div class="w-full max-w-4xl mx-auto">
                 <div class="aspect-video overflow-hidden rounded-lg shadow-2xl border-4 border-gray-200">
-                    <iframe 
-                        class="w-full h-full" 
-                        src="https://www.youtube.com/embed/_t-Rap4S-Go" 
-                        title="How to Boost a Facebook Post" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/_t-Rap4S-Go" title="How to Boost a Facebook Post" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                     </iframe>
                 </div>
             </div>
@@ -116,12 +116,12 @@
                 <div class="bg-white p-8 rounded-lg max-w-3xl mx-auto text-center">
                     <h2 class="text-3xl font-bold text-gray-900 mb-4">សាកល្បង៖ AI វិភាគខ្លឹមសារ Post</h2>
                     <p class="text-gray-600 mb-6">បញ្ចូលផលិតផល និងខ្លឹមសារ Post របស់អ្នក។ AI នឹងវិភាគ និងផ្តល់ពិន្ទុថាតើ Post នេះល្អសម្រាប់ Boost ដែរឬទេ។</p>
-                    
+
                     <div class="flex flex-col gap-4">
                         <input type="text" id="product-name-scan" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="1. បញ្ចូលឈ្មោះផលិតផល (ឧ. កាហ្វេ, ស្បែកជើង...)">
-                        
+
                         <textarea id="post-text-scan" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" rows="5" placeholder="2. បិទភ្ជាប់ (Paste) ខ្លឹមសារ Post របស់អ្នកនៅទីនេះ..."></textarea>
-                        
+
                         <button id="scan-post-button" class="bg-blue-600 text-white font-bold px-8 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 text-lg transform hover:scale-105">
                             🤖 វិភាគ Post
                         </button>
@@ -152,11 +152,11 @@
                 <div class="bg-white p-8 rounded-lg max-w-3xl mx-auto text-center">
                     <h2 class="text-3xl font-bold text-gray-900 mb-4">សាកល្បង៖ AI បង្កើត​អត្ថបទ​ផ្សាយ​ពាណិជ្ជកម្ម</h2>
                     <p class="text-gray-600 mb-6">បញ្ចូលឈ្មោះផលិតផល និងចំណុចលក់សំខាន់ៗ។ AI នឹងសរសេរ Ad Copy ដ៏ទាក់ទាញសម្រាប់អ្នក។</p>
-                    
+
                     <div class="flex flex-col gap-4">
                         <input type="text" id="ad-product-name" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="1. បញ្ចូលឈ្មោះផលិតផល (ឧ. ក្រែមលាបមុខ...)">
                         <input type="text" id="ad-key-points" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="2. ចំណុចសំខាន់ (ឧ. បំបាត់មុន, ធានា 100%...)">
-                        
+
                         <button id="generate-ad-button" class="bg-green-600 text-white font-bold px-8 py-3 rounded-lg hover:bg-green-700 transition-all duration-300 text-lg transform hover:scale-105">
                             ✍️ បង្កើតអត្ថបទផ្សាយ
                         </button>
@@ -192,10 +192,10 @@
                 <div class="bg-white p-8 rounded-lg max-w-3xl mx-auto text-center">
                     <h2 class="text-3xl font-bold text-gray-900 mb-4">សាកល្បង៖ AI ស្វែងរកអតិថិជនគោលដៅ</h2>
                     <p class="text-gray-600 mb-6">បញ្ចូលឈ្មោះផលិតផល (ឧ. កាហ្វេ, សំលៀកបំពាក់) ហើយ AI នឹងណែនាំទស្សនិកជនគោលដៅ (Core Audience) សម្រាប់អ្នក។</p>
-                    
+
                     <div class="flex flex-col gap-4">
                         <input type="text" id="product-input" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="បញ្ចូលឈ្មោះផលិតផលនៅទីនេះ...">
-                        
+
                         <button id="find-audience-button" class="bg-purple-600 text-white font-bold px-8 py-3 rounded-lg hover:bg-purple-700 transition-all duration-300 text-lg transform hover:scale-105">
                             🎯 ស្វែងរកអតិថិជន
                         </button>
@@ -226,10 +226,10 @@
                 <div class="bg-white p-8 rounded-lg max-w-3xl mx-auto text-center">
                     <h2 class="text-3xl font-bold text-gray-900 mb-4">សាកល្បង៖ AI ស្វែងរក​តម្លៃ​ទំនិញ</h2>
                     <p class="text-gray-600 mb-6">បញ្ចូលឈ្មោះទំនិញ (ឧ. iPhone 15 Pro Max) ហើយ AI នឹងប៉ាន់ស្មានតម្លៃទីផ្សារបច្ចុប្បន្ននៅកម្ពុជា។</p>
-                    
+
                     <div class="flex flex-col gap-4">
                         <input type="text" id="price-product-name" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="បញ្ចូលឈ្មោះទំនិញ (ឧ. iPhone 15...)">
-                        
+
                         <button id="find-price-button" class="bg-red-600 text-white font-bold px-8 py-3 rounded-lg hover:bg-red-700 transition-all duration-300 text-lg transform hover:scale-105">
                             💰 ស្វែងរកតម្លៃ
                         </button>
@@ -257,7 +257,7 @@
         <!-- Marketing Strategy Section -->
         <section class="mb-16">
             <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-4 border-blue-500 pb-2">🔥 យុទ្ធសាស្ត្រទីផ្សារ៖ លើសពីការចុចប៊ូតុង "Boost"</h2>
-            
+
             <div class="bg-white p-6 rounded-lg shadow-xl mb-8">
                 <h3 class="text-2xl font-semibold mb-4 text-blue-700">រូបមន្តសម្ងាត់៖ តើ Post បែបណាដែលគួរ Boost?</h3>
                 <p class="mb-4">មិនមែនគ្រប់ Post ទាំងអស់សមនឹងទទួលបានការ Boost នោះទេ។ នេះគឺជាគន្លឹះសំខាន់ៗមួយចំនួន៖</p>
@@ -300,7 +300,7 @@
         <!-- Business Strategy Section -->
         <section class="mb-16">
             <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-4 border-green-500 pb-2">💰 យុទ្ធសាស្ត្រអាជីវកម្ម៖ បញ្ឈប់ការខ្ជះខ្ជាយថវិកា</h2>
-            
+
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white p-6 rounded-lg shadow-xl">
                     <h3 class="text-2xl font-semibold mb-4 text-green-700">ប្លង់មេ ROI៖ កំណត់គោលដៅរបស់អ្នកជាមុន</h3>
@@ -312,10 +312,10 @@
                         <li><strong>ការលក់ (Sales)៖</strong> ឱ្យមនុស្សទិញផលិតផល ឬសេវាកម្ម។</li>
                     </ul>
                 </div>
-                
+
                 <div class="bg-white p-6 rounded-lg shadow-xl">
                     <h3 class="text-2xl font-semibold mb-4 text-green-700">យុទ្ធសាស្ត្រសម្រាប់អាជីវកម្មខ្នាតតូច</h3>
-                     <p class="mb-4">ប្រសិនបើអ្នកមានថវិកាតិចតួច រាល់ដុល្លារ đềuមានតម្លៃ។</p>
+                    <p class="mb-4">ប្រសិនបើអ្នកមានថវិកាតិចតួច រាល់ដុល្លារមានតម្លៃ។</p>
                     <ul class="list-decimal list-inside space-y-2">
                         <li><strong>ចាប់ផ្តើមតូច (Start Small)៖</strong> សាកល្បង Boost ជាមួយថវិកាតិច (ឧទាហរណ៍ 5$)។</li>
                         <li><strong>កំណត់គោលដៅក្នុងតំបន់ (Local Targeting)៖</strong> កំណត់គោលដៅមនុស្សនៅក្នុងទីក្រុង ឬតំបន់របស់អ្នក។</li>
@@ -349,19 +349,19 @@
                     <!-- Custom Audiences -->
                     <div class="border border-purple-200 p-4 rounded-lg bg-purple-50">
                         <h4 class="text-lg font-bold mb-2">2. ទស្សនិកជនផ្ទាល់ខ្លួន (Custom Audiences)</h4>
-                         <p class="text-sm">កំណត់គោលដៅមនុស្សដែលស្គាល់អ្នករួចហើយ៖</p>
+                        <p class="text-sm">កំណត់គោលដៅមនុស្សដែលស្គាល់អ្នករួចហើយ៖</p>
                         <ul class="list-disc list-inside text-sm mt-2 space-y-1">
                             <li>បញ្ជីអតិថិជន (Email ឬលេខទូរស័ពទ)</li>
                             <li>អ្នកចូលមើលគេហទំព័រ (Website Visitors)</li>
                             <li>អ្នកធ្លាប់ Like ឬផ្ញើសារមក Page</li>
                             <li>អ្នកធ្លាប់មើលវីដេអូរបស់អ្នក</li>
                         </ul>
-                         <p class="text-xs font-semibold mt-3 text-purple-800">ល្អបំផុតសម្រាប់៖ ការលក់បន្ត (Remarketing)</p>
+                        <p class="text-xs font-semibold mt-3 text-purple-800">ល្អបំផុតសម្រាប់៖ ការលក់បន្ត (Remarketing)</p>
                     </div>
                     <!-- Lookalike Audiences -->
                     <div class="border border-purple-200 p-4 rounded-lg bg-purple-50">
                         <h4 class="text-lg font-bold mb-2">3. ទស្សនិកជនស្រដៀងគ្នា (Lookalike Audiences)</h4>
-                         <p class="text-sm">ស្វែងរកមនុស្ស "ថ្មី" ដែលមានលក្ខណៈស្រដៀងនឹង៖</p>
+                        <p class="text-sm">ស្វែងរកមនុស្ស "ថ្មី" ដែលមានលក្ខណៈស្រដៀងនឹង៖</p>
                         <ul class="list-disc list-inside text-sm mt-2 space-y-1">
                             <li>អតិថិជនល្អបំផុតរបស់អ្នក</li>
                             <li>អ្នកដែល Like Page របស់អ្នក</li>
@@ -400,7 +400,8 @@
         <section class="bg-gray-800 text-white p-10 rounded-lg shadow-xl text-center">
             <h2 class="text-3xl font-bold mb-4">សេចក្តីសន្និដ្ឋាន</h2>
             <p class="max-w-3xl mx-auto text-lg">
-                ការជំរុញទំព័រ Facebook ក្នុងឆ្នាំ 2025 គឺ<span class="text-red-500 font-bold">ការរួមបញ្ចូលគ្នា</span>រវាងសិល្បៈ (ខ្លឹមសារល្អ) និងវិទ្យាសាស្ត្រ (ទិន្នន័យ និងការកំណត់គោលដៅ)។ ដោយផ្តោតលើយុទ្ធសាស្ត្រអាជីវកម្មច្បាស់លាស់ និងការអនុវត្តបច្ចកទេសត្រឹមត្រូវ អ្នកអាចបំប្លែងថវិកាផ្សព្វផ្សាយរបស់អ្នក ទៅជាលទ្ធផលអាជីវកម្មពិតប្រាកដ។
+                ការជំរុញទំព័រ Facebook ក្នុងឆ្នាំ 2025 គឺ<span class="text-red-500 font-bold">ការរួមបញ្ចូលគ្នា</span>រវាងសិល្បៈ (ខ្លឹមសារល្អ) និងវិទ្យាសាស្ត្រ (ទិន្នន័យ និងការកំណត់គោលដៅ)។ ដោយផ្តោតលើយុទ្ធសាស្ត្រអាជីវកម្មច្បាស់លាស់ និងការអនុវត្តបច្ចកទេសត្រឹមត្រូវ
+                អ្នកអាចបំប្លែងថវិកាផ្សព្វផ្សាយរបស់អ្នក ទៅជាលទ្ធផលអាជីវកម្មពិតប្រាកដ។
             </p>
         </section>
 
@@ -429,7 +430,7 @@
         <div class="container mx-auto px-6 text-center">
             <p>&copy; 2025 CS Digital. រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
             <p class="text-sm mt-2">ការណែនាំនេះត្រូវបានបង្កើតឡើងសម្រាប់គោលបំណងអប់រំ។</p>
-            
+
             <!-- Admin Links -->
             <div class="mt-4 pt-4 border-t border-gray-300">
                 <h4 class="font-semibold text-gray-700 mb-2">Admin & Support</h4>
@@ -489,659 +490,147 @@
 
     <!-- Firebase SDK Scripts -->
     <script type="module">
-        // --- MAIN WEBSITE SCRIPT (from original file) ---
-        document.addEventListener('DOMContentLoaded', () => {
-            
-            // ... existing chat widget code ...
-            const chatToggleButton = document.getElementById('chat-toggle-button');
-            const chatWindow = document.getElementById('chat-window');
-            const chatCloseButton = document.getElementById('chat-close-button');
-            const chatMessages = document.getElementById('chat-messages');
-            const chatInput = document.getElementById('chat-input');
-            const chatSendButton = document.getElementById('chat-send-button');
-            const quickRepliesContainer = document.getElementById('quick-replies');
-
-            const toggleChatWindow = () => {
-                const isHidden = chatWindow.classList.contains('hidden');
-                if (isHidden) {
-                    chatWindow.classList.remove('hidden', 'scale-95', 'opacity-0');
-                    chatWindow.classList.add('scale-100', 'opacity-100');
-                    if (chatMessages.children.length === 0) {
-                        displayWelcomeMessage();
-                    }
-                } else {
-                                        chatWindow.classList.add('scale-95', 'opacity-0');
-                    setTimeout(() => chatWindow.classList.add('hidden'), 300);
-                }
-            };
-
-            chatToggleButton.addEventListener('click', toggleChatWindow);
-            chatCloseButton.addEventListener('click', toggleChatWindow);
-
-            const addMessage = (text, sender) => {
-                const messageElement = document.createElement('div');
-                messageElement.innerText = text;
-                
-                if (sender === 'user') {
-                    messageElement.className = 'bg-blue-500 text-white p-3 rounded-lg self-end max-w-xs break-words';
-                } else {
-                    messageElement.className = 'bg-gray-200 text-gray-800 p-3 rounded-lg self-start max-w-xs break-words';
-                }
-                
-                chatMessages.appendChild(messageElement);
-                chatMessages.scrollTop = chatMessages.scrollHeight;
-            };
-
-            const addQuickReplies = (replies) => {
-                quickRepliesContainer.innerHTML = '';
-                if (!replies || replies.length === 0) {
-                    quickRepliesContainer.classList.add('hidden');
-                    return;
-                }
-                
-                quickRepliesContainer.classList.remove('hidden');
-                replies.forEach(reply => {
-                    const button = document.createElement('button');
-                    button.innerText = reply;
-                    button.className = 'bg-gray-100 border border-gray-300 rounded-full px-3 py-1 text-sm text-blue-700 hover:bg-gray-200';
-                    button.addEventListener('click', () => {
-                        handleUserInput(reply);
-                    });
-                    quickRepliesContainer.appendChild(button);
-                });
-            };
-
-            const displayWelcomeMessage = () => {
-                addMessage('សួស្តី! ខ្ញុំជាជំនួយការ AI។ តើខ្ញុំអាចជួយអ្វីបាន? នេះគឺជាសំណួរទូទៅមួយចំនួន៖', 'ai');
-                addQuickReplies([
-                    'Boost Post vs Ads Manager?',
-                    'តើ Post បែបណាគួរ Boost?',
-                    'កំហុសទូទៅពេល Boost?'
-                ]);
-            };
-
-            const getAiResponse = (userInput) => {
-                const input = userInput.toLowerCase();
-                let response = "សូមអភ័យទោស ខ្ញុំមិនយល់សំណួរនោះទេ។ សូមសាកល្បងសួរអំពី 'Boost vs Ads Manager' ឬ 'កំហុសទូទៅ'។";
-                let replies = ['Boost Post vs Ads Manager?', 'តើ Post បែបណាគួរ Boost?', 'កំហុសទូទៅពេល Boost?'];
-
-                if (input.includes('boost post') || input.includes('ads manager')) {
-                    response = "Boost Post គឺងាយស្រួល និងលឿន ល្អសម្រាប់ Engagement។ Ads Manager គឺស្មុគស្មាញជាង តែផ្តល់ការគ្រប់គ្រងពេញលេញ ល្អសម្រាប់ការលក់ និង ROI។";
-                } else if (input.includes('post') && (input.includes('boost') || input.includes('គួរ'))) {
-                    response = "អ្នកគួរ Boost Post ដែលមាន Engagement ល្អស្រាប់, មានតម្លៃ (ដូចជា គន្លឹះ), មាន CTA ច្បាស់លាស់, និងមានរូបភាព/វីដេអូទាក់ទាញ។";
-                } else if (input.includes('កំហុស') || input.includes('mistake')) {
-                    response = "កំហុសទូទៅរួមមាន៖ ការមិនកំណត់គោលដៅច្បាស់លាស់ (Vague Targeting), ជ្រើសរើស Post ខុស, ភ្លេច CTA, និងមិនតាមដានលទ្ធផល។";
-                } else if (input.includes('សួស្តី') || input.includes('hello')) {
-                    response = "សួស្តី! តើអ្នកចង់សួរអំពីអ្វី? នេះគឺជាជម្រើសមួយចំនួន៖";
-                } else if (input.includes('យុទ្ធសាស្ត្រ') || input.includes('business')) {
-                    response = "យុទ្ធសាស្ត្រអាជីវកម្មសំខាន់គឺ៖ កំណត់គោលដៅ (ROI) របស់អ្នកជាមុន (Awareness, Traffic, ឬ Sales) និងចាប់ផ្តើមតូច (5$) បើអ្នកជាអាជីវកម្មខ្នាតតូច។";
-                    replies = ['តើ ROI ជាអ្វី?', 'យុទ្ធសាស្ត្រអាជីវកម្មតូច?'];
-                }
-
-                setTimeout(() => {
-                    addMessage(response, 'ai');
-                    addQuickReplies(replies);
-                }, 500);
-            };
-
-            const handleUserInput = (text) => {
-                const userInput = text.trim();
-                if (userInput === '') return;
-
-                addMessage(userInput, 'user');
-                chatInput.value = '';
-                addQuickReplies([]); // Clear quick replies while AI is "thinking"
-                
-                getAiResponse(userInput);
-            };
-
-            chatSendButton.addEventListener('click', () => handleUserInput(chatInput.value));
-            chatInput.addEventListener('keydown', (e) => {
-                if (e.key === 'Enter') {
-                    handleUserInput(chatInput.value);
-                }
-            });
-
-            // --- AI POST ANALYZER CODE ---
-            const scanPostButton = document.getElementById('scan-post-button');
-            const productNameScanInput = document.getElementById('product-name-scan');
-            const postTextScanInput = document.getElementById('post-text-scan');
-            const postLoadingSpinner = document.getElementById('post-scan-loading');
-            const postResultsDiv = document.getElementById('post-scan-results');
-
-            if (scanPostButton) {
-                scanPostButton.addEventListener('click', async () => {
-                    const productName = productNameScanInput.value;
-                    const postText = postTextScanInput.value;
-
-                    if (productName.trim().length < 2 || postText.trim().length < 10) {
-                        postResultsDiv.innerHTML = `<p class="text-red-600 font-semibold">សូមបញ្ចូលឈ្មោះផលិតផល និងខ្លឹមសារ Post (យ៉ាងហោចណាស់ 10 តួអក្សរ)។</p>`;
-                        postResultsDiv.classList.remove('hidden');
-                        postLoadingSpinner.classList.add('hidden');
-                        return;
-                    }
-
-                    postLoadingSpinner.classList.remove('hidden');
-                    postResultsDiv.classList.add('hidden');
-                    scanPostButton.disabled = true;
-                    scanPostButton.classList.add('opacity-75');
-
-                    try {
-                        const analysis = await getAiPostAnalysis(productName, postText);
-                        
-                        let scoreColor = "text-red-600";
-                        if (analysis.score > 85) {
-                            scoreColor = "text-green-600";
-                        } else if (analysis.score > 65) {
-                            scoreColor = "text-blue-700";
-                        }
-
-                        let resultsHTML = `
-                            <h3 class="text-3xl font-bold text-center mb-4 ${scoreColor}">${analysis.score}/100 - ${analysis.scoreText}</h3>
-                            <p class="text-center text-gray-700 mb-4">ការវិភាគសម្រាប់ Post លក់ <strong>"${analysis.productName}"</strong></p>
-                            
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <div class="bg-green-50 p-4 rounded-lg border border-green-200">
-                                    <h4 class="text-lg font-semibold text-green-800 mb-2">✅ គុណសម្បត្តិ (Pros)</h4>
-                                    <ul class="list-disc list-inside space-y-1 text-green-700">
-                                        ${analysis.pros.map(pro => `<li>${pro}</li>`).join('')}
-                                    </ul>
-                                </div>
-                                <div class="bg-red-50 p-4 rounded-lg border border-red-200">
-                                    <h4 class="text-lg font-semibold text-red-800 mb-2">❌ គុណវិបត្តិ (Cons & Suggestions)</h4>
-                                    <ul class="list-disc list-inside space-y-1 text-red-700">
-                                         ${analysis.cons.map(con => `<li>${con}</li>`).join('')}
-                                    </ul>
-                                </div>
-                            </div>
-                        `;
-
-                        postResultsDiv.innerHTML = resultsHTML;
-                        postResultsDiv.classList.remove('hidden');
-
-                    } catch (error) {
-                        console.error("Error fetching AI post analysis:", error);
-                        postResultsDiv.innerHTML = `<p class="text-red-600 font-semibold">មានបញ្ហាក្នុងការទាក់ទង AI។ សូមព្យាយាមម្តងទៀត។</p>`;
-                        postResultsDiv.classList.remove('hidden');
-                    } finally {
-                        postLoadingSpinner.classList.add('hidden');
-                        scanPostButton.disabled = false;
-                        scanPostButton.classList.remove('opacity-75');
-                    }
-                });
-            }
-
-            // --- AI POST ANALYSIS API CALL ---
-            async function getAiPostAnalysis(productName, postText) {
-                const apiKey = "AIzaSyBFsZOA7uK4kb0nFign9q_o-HxImjgQW8A"; // Provided by environment
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
-
-                const systemPrompt = "You are a professional Cambodian Facebook marketing expert. Your job is to analyze a Facebook post intended to sell a product and determine how effective it would be for a 'Boost Post' campaign in Khmer. You must respond in JSON.";
-                const userQuery = `Analyze this Facebook post text intended to sell "${productName}". 
-                Post Text: "${postText}"
-                
-                Provide an analysis:
-                1.  productName: The product name I provided.
-                2.  score: A score from 0 to 100 on its effectiveness for boosting.
-                3.  scoreText: A very brief summary (3-5 words in Khmer) of the score (e.g., "ល្អឥតខ្ចោះ", "ល្អបង្គួរ", "ត្រូវកែលម្អច្រើន").
-                4.  pros: An array of 3 brief bullet points (in Khmer) listing what is good about the post (e.g., "CTA ច្បាស់លាស់", "មាន Emoji ទាក់ទាញ").
-                5.  cons: An array of 3 brief bullet points (in Khmer) listing what is bad or missing, and how to improve it (e.g., "ខ្វះ CTA", "គួរ​បន្ថែម​រូបភាព", "ខ្លឹមសារ​វែង​ពេក")
-                
-                Focus the analysis on engagement, clarity, Call-to-Action (CTA), and visual appeal cues (like emojis).`;
-
-                const payload = {
-                    systemInstruction: { parts: [{ text: systemPrompt }] },
-                    contents: [{ parts: [{ text: userQuery }] }],
-                    generationConfig: {
-                        responseMimeType: "application/json",
-                        responseSchema: {
-                            type: "OBJECT",
-                            properties: {
-                                "productName": { "type": "STRING" },
-                                "score": { "type": "NUMBER" },
-                                "scoreText": { "type": "STRING" },
-                                "pros": { "type": "ARRAY", "items": { "type": "STRING" } },
-                                "cons": { "type": "ARRAY", "items": { "type": "STRING" } }
-                            },
-                            required: ["productName", "score", "scoreText", "pros", "cons"]
-                        }
-                    }
-                };
-
-                // ... (Exponential backoff logic) ...
-                let response;
-                let retries = 3;
-                let delay = 1000;
-                while (retries > 0) {
-                    try {
-                        response = await fetch(apiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
-                        if (response.ok) break;
-                        if (response.status === 429 || response.status >= 500) {
-                            if (retries === 1) throw new Error(`API call failed with status: ${response.status}`);
-                            await new Promise(resolve => setTimeout(resolve, delay));
-                            delay *= 2;
-                        } else { throw new Error(`API call failed with status: ${response.status}`); }
-                    } catch (error) {
-                         if (retries === 1) throw error;
-                         await new Promise(resolve => setTimeout(resolve, delay));
-                         delay *= 2;
-                    }
-                    retries--;
-                }
-                if (!response || !response.ok) throw new Error(`API call failed after retries.`);
-                // ... (End of backoff logic) ...
-
-                const result = await response.json();
-                if (result.candidates?.[0]?.content?.parts?.[0]?.text) {
-                    return JSON.parse(result.candidates[0].content.parts[0].text);
-                } else {
-                    console.error("Invalid API response structure:", result);
-                    throw new Error("AI did not return a valid post analysis.");
-                }
-            }
-
-
-            // --- NEW: AI AD COPY GENERATOR CODE ---
-            const generateAdButton = document.getElementById('generate-ad-button');
-            const adProductNameInput = document.getElementById('ad-product-name');
-            const adKeyPointsInput = document.getElementById('ad-key-points');
-            const adLoadingSpinner = document.getElementById('ad-gen-loading');
-            const adResultsDiv = document.getElementById('ad-gen-results');
-            const adCopyOutput = document.getElementById('ad-copy-output');
-            const copyAdButton = document.getElementById('copy-ad-button');
-            const copySuccessMsg = document.getElementById('copy-success-msg');
-
-            if (generateAdButton) {
-                generateAdButton.addEventListener('click', async () => {
-                    const productName = adProductNameInput.value;
-                    const keyPoints = adKeyPointsInput.value;
-
-                    if (productName.trim().length < 2) {
-                        adResultsDiv.classList.remove('hidden');
-                        adCopyOutput.value = "សូមបញ្ចូលឈ្មោះផលិតផល។";
-                        return;
-                    }
-
-                    adLoadingSpinner.classList.remove('hidden');
-                    adResultsDiv.classList.add('hidden');
-                    generateAdButton.disabled = true;
-                    generateAdButton.classList.add('opacity-75');
-
-                    try {
-                        const adCopy = await getAiAdCopy(productName, keyPoints);
-                        adCopyOutput.value = adCopy;
-                        adResultsDiv.classList.remove('hidden');
-                    } catch (error) {
-                        console.error("Error fetching AI ad copy:", error);
-                        adResultsDiv.classList.remove('hidden');
-                        adCopyOutput.value = "មានបញ្ហាក្នុងការទាក់ទង AI។ សូមព្យាយាមម្តងទៀត។";
-                    } finally {
-                        adLoadingSpinner.classList.add('hidden');
-                        generateAdButton.disabled = false;
-                        generateAdButton.classList.remove('opacity-75');
-                    }
-                });
-            }
-
-            if (copyAdButton) {
-                copyAdButton.addEventListener('click', () => {
-                    adCopyOutput.select();
-                    document.execCommand('copy');
-                    copySuccessMsg.classList.remove('hidden');
-                    setTimeout(() => {
-                        copySuccessMsg.classList.add('hidden');
-                    }, 2000);
-                });
-            }
-
-            // --- NEW: AI AD COPY API CALL ---
-            async function getAiAdCopy(productName, keyPoints) {
-                const apiKey = "AIzaSyBFsZOA7uK4kb0nFign9q_o-HxImjgQW8A"; // Provided by environment
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
-
-                const systemPrompt = "You are an expert Cambodian Facebook copywriter. Your job is to write compelling, engaging, and high-converting ad copy in Khmer. The copy should be friendly, use emojis, and have a clear call-to-action (CTA).";
-                let userQuery = `Write a Facebook ad copy for a product called "${productName}".`;
-                if (keyPoints.trim().length > 0) {
-                    userQuery += ` Key selling points are: ${keyPoints}.`;
-                }
-                userQuery += ` The ad copy should be in Khmer, use relevant emojis, and end with a strong CTA like "📩 ឆាត​សួរ​ព័ត៌មាន​ឥឡូវ​នេះ!" or "📞 ទាក់ទង​ទិញ​: 012 345 678".`;
-
-                const payload = {
-                    systemInstruction: { parts: [{ text: systemPrompt }] },
-                    contents: [{ parts: [{ text: userQuery }] }]
-                };
-
-                // ... (Exponential backoff logic) ...
-                let response;
-                let retries = 3;
-                let delay = 1000;
-                while (retries > 0) {
-                    try {
-                        response = await fetch(apiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
-                        if (response.ok) break;
-                        if (response.status === 429 || response.status >= 500) {
-                            if (retries === 1) throw new Error(`API call failed with status: ${response.status}`);
-                            await new Promise(resolve => setTimeout(resolve, delay));
-                            delay *= 2;
-                        } else { throw new Error(`API call failed with status: ${response.status}`); }
-                    } catch (error) {
-                         if (retries === 1) throw error;
-                         await new Promise(resolve => setTimeout(resolve, delay));
-                         delay *= 2;
-                    }
-                    retries--;
-                }
-                if (!response || !response.ok) throw new Error(`API call failed after retries.`);
-                // ... (End of backoff logic) ...
-
-                const result = await response.json();
-                if (result.candidates?.[0]?.content?.parts?.[0]?.text) {
-                    return result.candidates[0].content.parts[0].text;
-                } else {
-                    console.error("Invalid API response structure:", result);
-                    throw new Error("AI did not return valid ad copy.");
-                }
-            }
-
-
-            // --- AI AUDIENCE FINDER CODE ---
-            const findAudienceButton = document.getElementById('find-audience-button');
-            const productInput = document.getElementById('product-input');
-            const audienceLoadingSpinner = document.getElementById('audience-scan-loading');
-            const audienceResultsDiv = document.getElementById('audience-scan-results');
-
-            if (findAudienceButton) {
-                findAudienceButton.addEventListener('click', async () => {
-                    const productName = productInput.value;
-
-                    if (productName.trim().length < 2) {
-                        audienceResultsDiv.innerHTML = `<p class="text-red-600 font-semibold">សូមបញ្ចូលឈ្មោះផលិតផល (យ៉ាងហោចណាស់ 2 តួអក្សរ) ដើម្បីវិភាគ។</p>`;
-                        audienceResultsDiv.classList.remove('hidden');
-                        audienceLoadingSpinner.classList.add('hidden');
-                        return;
-                    }
-
-                    audienceLoadingSpinner.classList.remove('hidden');
-                    audienceResultsDiv.classList.add('hidden');
-                    findAudienceButton.disabled = true;
-                    findAudienceButton.classList.add('opacity-75');
-
-                    try {
-                        const audience = await getAiAudienceSuggestion(productName);
-                        
-                        let resultsHTML = `
-                            <h3 class="text-2xl font-bold text-center mb-4 text-purple-700">AI ណែនាំសម្រាប់ផលិតផល៖ "${audience.productName || productName}"</h3>
-                            <ul class="space-y-3 text-base">
-                                <li><strong>👥 ប្រជាសាស្ត្រ៖</strong> ${audience.demographics}</li>
-                                <li><strong>📍 ទីតាំង៖</strong> ${audience.location}</li>
-                                <li><strong>❤️ ចំណាប់អារម្មណ៍៖</strong> ${audience.interests}</li>
-                                <li><strong>🏃 ឥរិយាបថ៖</strong> ${audience.behaviors}</li>
-                            </ul>
-                            <p class="text-sm text-gray-600 mt-4 pt-4 border-t border-purple-200">
-                                <strong>កំណត់សម្គាល់៖</strong> នេះគឺជាការណែនាំពី AI។ សូមប្រើទិន្នន័យនេះជាមូលដ្ឋាន និងកែសម្រួលវានៅក្នុង Ads Manager របស់អ្នក។
-                            </p>
-                        `;
-
-                        audienceResultsDiv.innerHTML = resultsHTML;
-                        audienceResultsDiv.classList.remove('hidden');
-
-                    } catch (error) {
-                        console.error("Error fetching AI audience:", error);
-                        audienceResultsDiv.innerHTML = `<p class="text-red-600 font-semibold">មានបញ្ហាក្នុងការទាក់ទង AI។ សូមព្យាយាមម្តងទៀត។</p>`;
-                        audienceResultsDiv.classList.remove('hidden');
-                    } finally {
-                        audienceLoadingSpinner.classList.add('hidden');
-                        findAudienceButton.disabled = false;
-                        findAudienceButton.classList.remove('opacity-75');
-                    }
-                });
-            }
-
-            // --- AI AUDIENCE SUGGESTION API CALL ---
-            async function getAiAudienceSuggestion(productName) {
-                const apiKey = "AIzaSyBFsZOA7uK4kb0nFign9q_o-HxImjgQW8A"; // Provided by environment
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
-
-                const systemPrompt = "You are an expert Facebook marketing strategist. Your task is to provide a concise, actionable target audience suggestion for a given product, formatted as a JSON object. All responses for interests, behaviors, etc., should be relevant to the Cambodian market.";
-                const userQuery = `Analyze the product "${productName}" and provide a target audience suggestion for a Facebook ad campaign in Cambodia. Provide details for demographics, location, interests, and behaviors.`;
-
-                const payload = {
-                    systemInstruction: { parts: [{ text: systemPrompt }] },
-                    contents: [{ parts: [{ text: userQuery }] }],
-                    generationConfig: {
-                        responseMimeType: "application/json",
-                        responseSchema: {
-                            type: "OBJECT",
-                            properties: {
-                                "productName": { "type": "STRING" },
-                                "demographics": { "type": "STRING", "description": "Age, gender, language (e.g., 'Ages 25-45, Women, Khmer & English')" },
-                                "location": { "type": "STRING", "description": "Specific cities or regions in Cambodia (e.g., 'Phnom Penh, Siem Reap')" },
-                                "interests": { "type": "STRING", "description": "List 3-5 key Facebook interests (e.g., 'Online Shopping, Fashion, Cosmetics')" },
-                                "behaviors": { "type": "STRING", "description": "List 1-2 key behaviors (e.g., 'Engaged Shoppers, Use high-end mobile devices')" }
-                            },
-                            required: ["productName", "demographics", "location", "interests", "behaviors"]
-                        }
-                    }
-                };
-
-                // ... (Exponential backoff logic) ...
-                let response;
-                let retries = 3;
-                let delay = 1000;
-                while (retries > 0) {
-                    try {
-                        response = await fetch(apiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
-                        if (response.ok) break;
-                        if (response.status === 429 || response.status >= 500) {
-                            if (retries === 1) throw new Error(`API call failed with status: ${response.status}`);
-                            await new Promise(resolve => setTimeout(resolve, delay));
-                            delay *= 2;
-                        } else { throw new Error(`API call failed with status: ${response.status}`); }
-                    } catch (error) {
-                         if (retries === 1) throw error;
-                         await new Promise(resolve => setTimeout(resolve, delay));
-                         delay *= 2;
-                    }
-                    retries--;
-                }
-                if (!response || !response.ok) throw new Error(`API call failed after retries.`);
-                // ... (End of backoff logic) ...
-
-                const result = await response.json();
-                if (result.candidates?.[0]?.content?.parts?.[0]?.text) {
-                    return JSON.parse(result.candidates[0].content.parts[0].text);
-                } else {
-                    console.error("Invalid API response structure:", result);
-                    throw new Error("AI did not return a valid audience suggestion.");
-                }
-            }
-
-
-            // --- NEW: AI PRICE TRACKER CODE ---
-            const findPriceButton = document.getElementById('find-price-button');
-            const priceProductNameInput = document.getElementById('price-product-name');
-            const priceLoadingSpinner = document.getElementById('price-scan-loading');
-            const priceResultsDiv = document.getElementById('price-scan-results');
-
-            if (findPriceButton) {
-                findPriceButton.addEventListener('click', async () => {
-                    const productName = priceProductNameInput.value;
-
-                    if (productName.trim().length < 2) {
-                        priceResultsDiv.innerHTML = `<p class="text-red-600 font-semibold">សូមបញ្ចូលឈ្មោះទំនិញ (យ៉ាងហោចណាស់ 2 តួអក្សរ)។</p>`;
-                        priceResultsDiv.classList.remove('hidden');
-                        priceLoadingSpinner.classList.add('hidden');
-                        return;
-                    }
-
-                    priceLoadingSpinner.classList.remove('hidden');
-                    priceResultsDiv.classList.add('hidden');
-                    findPriceButton.disabled = true;
-                    findPriceButton.classList.add('opacity-75');
-
-                    try {
-                        const priceInfo = await getAiPriceSuggestion(productName);
-                        
-                        let resultsHTML = `
-                            <h3 class="text-2xl font-bold text-center mb-4 text-red-700">តម្លៃប៉ាន់ស្មានសម្រាប់៖ "${priceInfo.productName}"</h3>
-                            <div classs="text-center">
-                                <p class="text-4xl font-bold text-gray-900">${priceInfo.estimatedPrice}</p>
-                                <p class="text-gray-600">(${priceInfo.priceRange})</p>
-                            </div>
-                            <div class="mt-4 pt-4 border-t border-red-200">
-                                <h4 class="font-semibold text-gray-800">ការវិភាគទីផ្សារ៖</h4>
-                                <p class="text-gray-700">${priceInfo.analysis}</p>
-                            </div>
-                            <p class="text-xs text-gray-500 mt-4">
-                                <strong>ការបដិសេធ៖</strong> តម្លៃនេះគឺជាការប៉ាន់ស្មានដោយ AI ពីប្រភពសាធារណៈ និងអាចប្រែប្រួល។
-                            </p>
-                        `;
-
-                        priceResultsDiv.innerHTML = resultsHTML;
-                        priceResultsDiv.classList.remove('hidden');
-
-                    } catch (error) {
-                        console.error("Error fetching AI price info:", error);
-                        priceResultsDiv.innerHTML = `<p class="text-red-600 font-semibold">មានបញ្ហាក្នុងការទាក់ទង AI។ សូមព្យាយាមម្តងទៀត។</p>`;
-                        priceResultsDiv.classList.remove('hidden');
-                    } finally {
-                        priceLoadingSpinner.classList.add('hidden');
-                        findPriceButton.disabled = false;
-                        findPriceButton.classList.remove('opacity-75');
-                    }
-                });
-            }
-
-            // --- NEW: AI PRICE SUGGESTION API CALL ---
-            async function getAiPriceSuggestion(productName) {
-                const apiKey = "AIzaSyBFsZOA7uK4kb0nFign9q_o-HxImjgQW8A"; // Provided by environment
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
-
-                const systemPrompt = "You are a Cambodian market analyst AI. Your job is to estimate the current price for a product in Cambodia based on your internal knowledge. You must respond in JSON."; // CHANGED - Removed 'Google Search grounding'
-                const userQuery = `Estimate the current market price for "${productName}" in Cambodia. Provide the product name, a single estimated price (e.g., "$150" or "150,000៛"), a price range (e.g., "$145 - $155"), and a brief 1-2 sentence analysis of the market.`; // CHANGED - "Find" to "Estimate"
-
-                const payload = {
-                    // tools: [{ "google_search": {} }], // REMOVED - This was likely causing the 401 Unauthorized error.
-                    systemInstruction: { parts: [{ text: systemPrompt }] },
-                    contents: [{ parts: [{ text: userQuery }] }],
-                    generationConfig: {
-                        responseMimeType: "application/json",
-                        responseSchema: {
-                            type: "OBJECT",
-                            properties: {
-                                "productName": { "type": "STRING" },
-                                "estimatedPrice": { "type": "STRING", "description": "A single estimated price, e.g., '$1,200'" },
-                                "priceRange": { "type": "STRING", "description": "The likely price range, e.g., '$1,150 - $1,250'" },
-                                "analysis": { "type": "STRING", "description": "1-2 sentence market analysis in Khmer." }
-                            },
-                            required: ["productName", "estimatedPrice", "priceRange", "analysis"]
-                        }
-                    }
-                };
-
-                // ... (Exponential backoff logic) ...
-                let response;
-                let retries = 3;
-                let delay = 1000;
-                while (retries > 0) {
-                    try {
-                        response = await fetch(apiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
-                        if (response.ok) break;
-                        if (response.status === 429 || response.status >= 500) {
-                            if (retries === 1) throw new Error(`API call failed with status: ${response.status}`);
-                            await new Promise(resolve => setTimeout(resolve, delay));
-                            delay *= 2;
-                        } else { throw new Error(`API call failed with status: ${response.status}`); }
-                    } catch (error) {
-                         if (retries === 1) throw error;
-                         await new Promise(resolve => setTimeout(resolve, delay));
-                         delay *= 2;
-                    }
-                    retries--;
-                }
-                if (!response || !response.ok) throw new Error(`API call failed after retries.`);
-                // ... (End of backoff logic) ...
-
-                const result = await response.json();
-                if (result.candidates?.[0]?.content?.parts?.[0]?.text) {
-                    return JSON.parse(result.candidates[0].content.parts[0].text);
-                } else {
-                    console.error("Invalid API response structure:", result);
-                    throw new Error("AI did not return valid price information.");
-                }
-            }
-
-
-            // --- TELEGRAM FORM SENDER ---
-            const telegramForm = document.getElementById('telegram-form');
-            const sendMessageButton = document.getElementById('send-message-button');
-            const formSuccessMessage = document.getElementById('form-success-message');
-            const formErrorMessage = document.getElementById('form-error-message');
-
-            // User's provided variables
-            //bot token
-            var telegram_bot_id = "8273106488:AAHHTDMqoZemCK563T-YQMB4arMYl5Ntq-w";
-            //chat id
-            var chat_id = 1126254088;
-            
-            if (telegramForm) {
-                telegramForm.addEventListener('submit', async (e) => {
-                    e.preventDefault(); // Prevent default form submission
-                    sendMessageButton.disabled = true;
-                    sendMessageButton.classList.add('opacity-75');
-                    formSuccessMessage.classList.add('hidden');
-                    formErrorMessage.classList.add('hidden');
-
-                    const nameInput = document.getElementById("name");
-                    const emailInput = document.getElementById("email");
-                    const messageInput = document.getElementById("message");
-
-                    const u_name = nameInput.value;
-                    const email = emailInput.value;
-                    const messageText = messageInput.value;
-                    const message = `Name: ${u_name}\nEmail: ${email}\nMessage: ${messageText}`;
-
-                    const url = `https://api.telegram.org/bot${telegram_bot_id}/sendMessage`;
-                    
-                    try {
-                        const response = await fetch(url, {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json'
-                            },
-                            body: JSON.stringify({
-                                chat_id: chat_id,
-                                text: message
-                            })
-                        });
-
-                        const result = await response.json();
-
-                        if (response.ok && result.ok) {
-                            console.log(result);
-                            formSuccessMessage.classList.remove('hidden');
-                            nameInput.value = "";
-                            emailInput.value = "";
-                            messageInput.value = "";
-                        } else {
-                            throw new Error(result.description || "Failed to send message");
-                        }
-
-                    } catch (error) {
-                        console.error("Telegram Send Error:", error);
-                        formErrorMessage.textContent = `មានបញ្ហាក្នុងការផ្ញើសារ៖ ${error.message}`;
-                        formErrorMessage.classList.remove('hidden');
-                    } finally {
-                        sendMessageButton.disabled = false;
-                        sendMessageButton.classList.remove('opacity-75');
-                    }
-                });
-            }
-
-        }); // End of DOMContentLoaded
+        // --- MAIN WEBSITE SCRIPT (from original file) --- document.addEventListener('DOMContentLoaded', () => { // ... existing chat widget code ... const chatToggleButton = document.getElementById('chat-toggle-button'); const chatWindow = document.getElementById('chat-window');
+        const chatCloseButton = document.getElementById('chat-close-button'); const chatMessages = document.getElementById('chat-messages'); const chatInput = document.getElementById('chat-input'); const chatSendButton = document.getElementById('chat-send-button');
+        const quickRepliesContainer = document.getElementById('quick-replies'); const toggleChatWindow = () => { const isHidden = chatWindow.classList.contains('hidden'); if (isHidden) { chatWindow.classList.remove('hidden', 'scale-95', 'opacity-0');
+        chatWindow.classList.add('scale-100', 'opacity-100'); if (chatMessages.children.length === 0) { displayWelcomeMessage(); } } else { chatWindow.classList.add('scale-95', 'opacity-0'); setTimeout(() => chatWindow.classList.add('hidden'), 300); }
+        }; chatToggleButton.addEventListener('click', toggleChatWindow); chatCloseButton.addEventListener('click', toggleChatWindow); const addMessage = (text, sender) => { const messageElement = document.createElement('div'); messageElement.innerText
+        = text; if (sender === 'user') { messageElement.className = 'bg-blue-500 text-white p-3 rounded-lg self-end max-w-xs break-words'; } else { messageElement.className = 'bg-gray-200 text-gray-800 p-3 rounded-lg self-start max-w-xs break-words';
+        } chatMessages.appendChild(messageElement); chatMessages.scrollTop = chatMessages.scrollHeight; }; const addQuickReplies = (replies) => { quickRepliesContainer.innerHTML = ''; if (!replies || replies.length === 0) { quickRepliesContainer.classList.add('hidden');
+        return; } quickRepliesContainer.classList.remove('hidden'); replies.forEach(reply => { const button = document.createElement('button'); button.innerText = reply; button.className = 'bg-gray-100 border border-gray-300 rounded-full px-3 py-1 text-sm
+        text-blue-700 hover:bg-gray-200'; button.addEventListener('click', () => { handleUserInput(reply); }); quickRepliesContainer.appendChild(button); }); }; const displayWelcomeMessage = () => { addMessage('សួស្តី! ខ្ញុំជាជំនួយការ AI។ តើខ្ញុំអាចជួយអ្វីបាន?
+        នេះគឺជាសំណួរទូទៅមួយចំនួន៖', 'ai'); addQuickReplies([ 'Boost Post vs Ads Manager?', 'តើ Post បែបណាគួរ Boost?', 'កំហុសទូទៅពេល Boost?' ]); }; const getAiResponse = (userInput) => { const input = userInput.toLowerCase(); let response = "សូមអភ័យទោស
+        ខ្ញុំមិនយល់សំណួរនោះទេ។ សូមសាកល្បងសួរអំពី 'Boost vs Ads Manager' ឬ 'កំហុសទូទៅ'។"; let replies = ['Boost Post vs Ads Manager?', 'តើ Post បែបណាគួរ Boost?', 'កំហុសទូទៅពេល Boost?']; if (input.includes('boost post') || input.includes('ads manager'))
+        { response = "Boost Post គឺងាយស្រួល និងលឿន ល្អសម្រាប់ Engagement។ Ads Manager គឺស្មុគស្មាញជាង តែផ្តល់ការគ្រប់គ្រងពេញលេញ ល្អសម្រាប់ការលក់ និង ROI។"; } else if (input.includes('post') && (input.includes('boost') || input.includes('គួរ'))) { response
+        = "អ្នកគួរ Boost Post ដែលមាន Engagement ល្អស្រាប់, មានតម្លៃ (ដូចជា គន្លឹះ), មាន CTA ច្បាស់លាស់, និងមានរូបភាព/វីដេអូទាក់ទាញ។"; } else if (input.includes('កំហុស') || input.includes('mistake')) { response = "កំហុសទូទៅរួមមាន៖ ការមិនកំណត់គោលដៅច្បាស់លាស់
+        (Vague Targeting), ជ្រើសរើស Post ខុស, ភ្លេច CTA, និងមិនតាមដានលទ្ធផល។"; } else if (input.includes('សួស្តី') || input.includes('hello')) { response = "សួស្តី! តើអ្នកចង់សួរអំពីអ្វី? នេះគឺជាជម្រើសមួយចំនួន៖"; } else if (input.includes('យុទ្ធសាស្ត្រ')
+        || input.includes('business')) { response = "យុទ្ធសាស្ត្រអាជីវកម្មសំខាន់គឺ៖ កំណត់គោលដៅ (ROI) របស់អ្នកជាមុន (Awareness, Traffic, ឬ Sales) និងចាប់ផ្តើមតូច (5$) បើអ្នកជាអាជីវកម្មខ្នាតតូច។"; replies = ['តើ ROI ជាអ្វី?', 'យុទ្ធសាស្ត្រអាជីវកម្មតូច?'];
+        } setTimeout(() => { addMessage(response, 'ai'); addQuickReplies(replies); }, 500); }; const handleUserInput = (text) => { const userInput = text.trim(); if (userInput === '') return; addMessage(userInput, 'user'); chatInput.value = ''; addQuickReplies([]);
+        // Clear quick replies while AI is "thinking" getAiResponse(userInput); }; chatSendButton.addEventListener('click', () => handleUserInput(chatInput.value)); chatInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') { handleUserInput(chatInput.value);
+        } }); // --- AI POST ANALYZER CODE --- const scanPostButton = document.getElementById('scan-post-button'); const productNameScanInput = document.getElementById('product-name-scan'); const postTextScanInput = document.getElementById('post-text-scan');
+        const postLoadingSpinner = document.getElementById('post-scan-loading'); const postResultsDiv = document.getElementById('post-scan-results'); if (scanPostButton) { scanPostButton.addEventListener('click', async () => { const productName = productNameScanInput.value;
+        const postText = postTextScanInput.value; if (productName.trim().length
+        < 2 || postText.trim().length < 10) { postResultsDiv.innerHTML=` <p class="text-red-600 font-semibold">សូមបញ្ចូលឈ្មោះផលិតផល និងខ្លឹមសារ Post (យ៉ាងហោចណាស់ 10 តួអក្សរ)។</p>`; postResultsDiv.classList.remove('hidden'); postLoadingSpinner.classList.add('hidden'); return; } postLoadingSpinner.classList.remove('hidden'); postResultsDiv.classList.add('hidden');
+            scanPostButton.disabled = true; scanPostButton.classList.add('opacity-75'); try { const analysis = await getAiPostAnalysis(productName, postText); let scoreColor = "text-red-600"; if (analysis.score > 85) { scoreColor = "text-green-600"; }
+            else if (analysis.score > 65) { scoreColor = "text-blue-700"; } let resultsHTML = `
+            <h3 class="text-3xl font-bold text-center mb-4 ${scoreColor}">${analysis.score}/100 - ${analysis.scoreText}</h3>
+            <p class="text-center text-gray-700 mb-4">ការវិភាគសម្រាប់ Post លក់ <strong>"${analysis.productName}"</strong></p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-green-50 p-4 rounded-lg border border-green-200">
+                    <h4 class="text-lg font-semibold text-green-800 mb-2">✅ គុណសម្បត្តិ (Pros)</h4>
+                    <ul class="list-disc list-inside space-y-1 text-green-700">
+                        ${analysis.pros.map(pro => `
+                        <li>${pro}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="bg-red-50 p-4 rounded-lg border border-red-200">
+                    <h4 class="text-lg font-semibold text-red-800 mb-2">❌ គុណវិបត្តិ (Cons & Suggestions)</h4>
+                    <ul class="list-disc list-inside space-y-1 text-red-700">
+                        ${analysis.cons.map(con => `
+                        <li>${con}</li>`).join('')}
+                    </ul>
+                </div>
+            </div>
+            `; postResultsDiv.innerHTML = resultsHTML; postResultsDiv.classList.remove('hidden'); } catch (error) { console.error("Error fetching AI post analysis:", error); postResultsDiv.innerHTML = `
+            <p class="text-red-600 font-semibold">មានបញ្ហាក្នុងការទាក់ទង AI។ សូមព្យាយាមម្តងទៀត។</p>`; postResultsDiv.classList.remove('hidden'); } finally { postLoadingSpinner.classList.add('hidden'); scanPostButton.disabled = false; scanPostButton.classList.remove('opacity-75'); } }); }
+            // --- AI POST ANALYSIS API CALL --- async function getAiPostAnalysis(productName, postText) { const apiKey = "AIzaSyBFsZOA7uK4kb0nFign9q_o-HxImjgQW8A"; // Provided by environment const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+            const systemPrompt = "You are a professional Cambodian Facebook marketing expert. Your job is to analyze a Facebook post intended to sell a product and determine how effective it would be for a 'Boost Post' campaign in Khmer. You must respond
+            in JSON."; const userQuery = `Analyze this Facebook post text intended to sell "${productName}". Post Text: "${postText}" Provide an analysis: 1. productName: The product name I provided. 2. score: A score from 0 to 100 on its effectiveness
+            for boosting. 3. scoreText: A very brief summary (3-5 words in Khmer) of the score (e.g., "ល្អឥតខ្ចោះ", "ល្អបង្គួរ", "ត្រូវកែលម្អច្រើន"). 4. pros: An array of 3 brief bullet points (in Khmer) listing what is good about the post (e.g., "CTA
+            ច្បាស់លាស់", "មាន Emoji ទាក់ទាញ"). 5. cons: An array of 3 brief bullet points (in Khmer) listing what is bad or missing, and how to improve it (e.g., "ខ្វះ CTA", "គួរ​បន្ថែម​រូបភាព", "ខ្លឹមសារ​វែង​ពេក") Focus the analysis on engagement, clarity,
+            Call-to-Action (CTA), and visual appeal cues (like emojis).`; const payload = { systemInstruction: { parts: [{ text: systemPrompt }] }, contents: [{ parts: [{ text: userQuery }] }], generationConfig: { responseMimeType: "application/json",
+            responseSchema: { type: "OBJECT", properties: { "productName": { "type": "STRING" }, "score": { "type": "NUMBER" }, "scoreText": { "type": "STRING" }, "pros": { "type": "ARRAY", "items": { "type": "STRING" } }, "cons": { "type": "ARRAY", "items":
+            { "type": "STRING" } } }, required: ["productName", "score", "scoreText", "pros", "cons"] } } }; // ... (Exponential backoff logic) ... let response; let retries = 3; let delay = 1000; while (retries > 0) { try { response = await fetch(apiUrl,
+            { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) }); if (response.ok) break; if (response.status === 429 || response.status >= 500) { if (retries === 1) throw new Error(`API call failed with
+            status: ${response.status}`); await new Promise(resolve => setTimeout(resolve, delay)); delay *= 2; } else { throw new Error(`API call failed with status: ${response.status}`); } } catch (error) { if (retries === 1) throw error; await new
+            Promise(resolve => setTimeout(resolve, delay)); delay *= 2; } retries--; } if (!response || !response.ok) throw new Error(`API call failed after retries.`); // ... (End of backoff logic) ... const result = await response.json(); if (result.candidates?.[0]?.content?.parts?.[0]?.text)
+            { return JSON.parse(result.candidates[0].content.parts[0].text); } else { console.error("Invalid API response structure:", result); throw new Error("AI did not return a valid post analysis."); } } // --- NEW: AI AD COPY GENERATOR CODE ---
+            const generateAdButton = document.getElementById('generate-ad-button'); const adProductNameInput = document.getElementById('ad-product-name'); const adKeyPointsInput = document.getElementById('ad-key-points'); const adLoadingSpinner = document.getElementById('ad-gen-loading');
+            const adResultsDiv = document.getElementById('ad-gen-results'); const adCopyOutput = document.getElementById('ad-copy-output'); const copyAdButton = document.getElementById('copy-ad-button'); const copySuccessMsg = document.getElementById('copy-success-msg');
+            if (generateAdButton) { generateAdButton.addEventListener('click', async () => { const productName = adProductNameInput.value; const keyPoints = adKeyPointsInput.value; if (productName.trim().length
+            < 2) { adResultsDiv.classList.remove(
+                'hidden'); adCopyOutput.value="សូមបញ្ចូលឈ្មោះផលិតផល។" ; return; } adLoadingSpinner.classList.remove( 'hidden'); adResultsDiv.classList.add( 'hidden'); generateAdButton.disabled=t rue; generateAdButton.classList.add( 'opacity-75'); try { const adCopy=a
+                wait getAiAdCopy(productName, keyPoints); adCopyOutput.value=a dCopy; adResultsDiv.classList.remove( 'hidden'); } catch (error) { console.error( "Error fetching AI ad copy:", error); adResultsDiv.classList.remove( 'hidden'); adCopyOutput.value="មានបញ្ហាក្នុងការទាក់ទង AI។ សូមព្យាយាមម្តងទៀត។"
+                ; } finally { adLoadingSpinner.classList.add( 'hidden'); generateAdButton.disabled=f alse; generateAdButton.classList.remove( 'opacity-75'); } }); } if (copyAdButton) { copyAdButton.addEventListener( 'click', ()=> { adCopyOutput.select(); document.execCommand('copy'); copySuccessMsg.classList.remove('hidden'); setTimeout(() => { copySuccessMsg.classList.add('hidden'); }, 2000); }); } // --- NEW: AI AD COPY API CALL --- async function getAiAdCopy(productName,
+                keyPoints) { const apiKey = "AIzaSyBFsZOA7uK4kb0nFign9q_o-HxImjgQW8A"; // Provided by environment const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+                const systemPrompt = "You are an expert Cambodian Facebook copywriter. Your job is to write compelling, engaging, and high-converting ad copy in Khmer. The copy should be friendly, use emojis, and have a clear call-to-action (CTA)."; let
+                userQuery = `Write a Facebook ad copy for a product called "${productName}".`; if (keyPoints.trim().length > 0) { userQuery += ` Key selling points are: ${keyPoints}.`; } userQuery += ` The ad copy should be in Khmer, use relevant emojis,
+                and end with a strong CTA like "📩 ឆាត​សួរ​ព័ត៌មាន​ឥឡូវ​នេះ!" or "📞 ទាក់ទង​ទិញ​: 012 345 678".`; const payload = { systemInstruction: { parts: [{ text: systemPrompt }] }, contents: [{ parts: [{ text: userQuery }] }] }; // ... (Exponential
+                backoff logic) ... let response; let retries = 3; let delay = 1000; while (retries > 0) { try { response = await fetch(apiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) }); if (response.ok)
+                break; if (response.status === 429 || response.status >= 500) { if (retries === 1) throw new Error(`API call failed with status: ${response.status}`); await new Promise(resolve => setTimeout(resolve, delay)); delay *= 2; } else { throw
+                new Error(`API call failed with status: ${response.status}`); } } catch (error) { if (retries === 1) throw error; await new Promise(resolve => setTimeout(resolve, delay)); delay *= 2; } retries--; } if (!response || !response.ok) throw
+                new Error(`API call failed after retries.`); // ... (End of backoff logic) ... const result = await response.json(); if (result.candidates?.[0]?.content?.parts?.[0]?.text) { return result.candidates[0].content.parts[0].text; } else { console.error("Invalid
+                API response structure:", result); throw new Error("AI did not return valid ad copy."); } } // --- AI AUDIENCE FINDER CODE --- const findAudienceButton = document.getElementById('find-audience-button'); const productInput = document.getElementById('product-input');
+                const audienceLoadingSpinner = document.getElementById('audience-scan-loading'); const audienceResultsDiv = document.getElementById('audience-scan-results'); if (findAudienceButton) { findAudienceButton.addEventListener('click', async
+                () => { const productName = productInput.value; if (productName.trim().length
+                < 2) { audienceResultsDiv.innerHTML=` <p class="text-red-600 font-semibold">សូមបញ្ចូលឈ្មោះផលិតផល (យ៉ាងហោចណាស់ 2 តួអក្សរ) ដើម្បីវិភាគ។</p>`; audienceResultsDiv.classList.remove('hidden'); audienceLoadingSpinner.classList.add('hidden'); return; } audienceLoadingSpinner.classList.remove('hidden'); audienceResultsDiv.classList.add('hidden');
+                    findAudienceButton.disabled = true; findAudienceButton.classList.add('opacity-75'); try { const audience = await getAiAudienceSuggestion(productName); let resultsHTML = `
+                    <h3 class="text-2xl font-bold text-center mb-4 text-purple-700">AI ណែនាំសម្រាប់ផលិតផល៖ "${audience.productName || productName}"</h3>
+                    <ul class="space-y-3 text-base">
+                        <li><strong>👥 ប្រជាសាស្ត្រ៖</strong> ${audience.demographics}</li>
+                        <li><strong>📍 ទីតាំង៖</strong> ${audience.location}</li>
+                        <li><strong>❤️ ចំណាប់អារម្មណ៍៖</strong> ${audience.interests}</li>
+                        <li><strong>🏃 ឥរិយាបថ៖</strong> ${audience.behaviors}</li>
+                    </ul>
+                    <p class="text-sm text-gray-600 mt-4 pt-4 border-t border-purple-200">
+                        <strong>កំណត់សម្គាល់៖</strong> នេះគឺជាការណែនាំពី AI។ សូមប្រើទិន្នន័យនេះជាមូលដ្ឋាន និងកែសម្រួលវានៅក្នុង Ads Manager របស់អ្នក។
+                    </p>
+                    `; audienceResultsDiv.innerHTML = resultsHTML; audienceResultsDiv.classList.remove('hidden'); } catch (error) { console.error("Error fetching AI audience:", error); audienceResultsDiv.innerHTML = `
+                    <p class="text-red-600 font-semibold">មានបញ្ហាក្នុងការទាក់ទង AI។ សូមព្យាយាមម្តងទៀត។</p>`; audienceResultsDiv.classList.remove('hidden'); } finally { audienceLoadingSpinner.classList.add('hidden'); findAudienceButton.disabled = false; findAudienceButton.classList.remove('opacity-75');
+                    } }); } // --- AI AUDIENCE SUGGESTION API CALL --- async function getAiAudienceSuggestion(productName) { const apiKey = "AIzaSyBFsZOA7uK4kb0nFign9q_o-HxImjgQW8A"; // Provided by environment const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+                    const systemPrompt = "You are an expert Facebook marketing strategist. Your task is to provide a concise, actionable target audience suggestion for a given product, formatted as a JSON object. All responses for interests, behaviors,
+                    etc., should be relevant to the Cambodian market."; const userQuery = `Analyze the product "${productName}" and provide a target audience suggestion for a Facebook ad campaign in Cambodia. Provide details for demographics, location,
+                    interests, and behaviors.`; const payload = { systemInstruction: { parts: [{ text: systemPrompt }] }, contents: [{ parts: [{ text: userQuery }] }], generationConfig: { responseMimeType: "application/json", responseSchema: { type: "OBJECT",
+                    properties: { "productName": { "type": "STRING" }, "demographics": { "type": "STRING", "description": "Age, gender, language (e.g., 'Ages 25-45, Women, Khmer & English')" }, "location": { "type": "STRING", "description": "Specific
+                    cities or regions in Cambodia (e.g., 'Phnom Penh, Siem Reap')" }, "interests": { "type": "STRING", "description": "List 3-5 key Facebook interests (e.g., 'Online Shopping, Fashion, Cosmetics')" }, "behaviors": { "type": "STRING", "description":
+                    "List 1-2 key behaviors (e.g., 'Engaged Shoppers, Use high-end mobile devices')" } }, required: ["productName", "demographics", "location", "interests", "behaviors"] } } }; // ... (Exponential backoff logic) ... let response; let retries
+                    = 3; let delay = 1000; while (retries > 0) { try { response = await fetch(apiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) }); if (response.ok) break; if (response.status ===
+                    429 || response.status >= 500) { if (retries === 1) throw new Error(`API call failed with status: ${response.status}`); await new Promise(resolve => setTimeout(resolve, delay)); delay *= 2; } else { throw new Error(`API call failed
+                    with status: ${response.status}`); } } catch (error) { if (retries === 1) throw error; await new Promise(resolve => setTimeout(resolve, delay)); delay *= 2; } retries--; } if (!response || !response.ok) throw new Error(`API call failed
+                    after retries.`); // ... (End of backoff logic) ... const result = await response.json(); if (result.candidates?.[0]?.content?.parts?.[0]?.text) { return JSON.parse(result.candidates[0].content.parts[0].text); } else { console.error("Invalid
+                    API response structure:", result); throw new Error("AI did not return a valid audience suggestion."); } } // --- NEW: AI PRICE TRACKER CODE --- const findPriceButton = document.getElementById('find-price-button'); const priceProductNameInput
+                    = document.getElementById('price-product-name'); const priceLoadingSpinner = document.getElementById('price-scan-loading'); const priceResultsDiv = document.getElementById('price-scan-results'); if (findPriceButton) { findPriceButton.addEventListener('click',
+                    async () => { const productName = priceProductNameInput.value; if (productName.trim().length
+                    < 2) { priceResultsDiv.innerHTML=` <p class="text-red-600 font-semibold">សូមបញ្ចូលឈ្មោះទំនិញ (យ៉ាងហោចណាស់ 2 តួអក្សរ)។</p>`; priceResultsDiv.classList.remove('hidden'); priceLoadingSpinner.classList.add('hidden'); return; } priceLoadingSpinner.classList.remove('hidden'); priceResultsDiv.classList.add('hidden');
+                        findPriceButton.disabled = true; findPriceButton.classList.add('opacity-75'); try { const priceInfo = await getAiPriceSuggestion(productName); let resultsHTML = `
+                        <h3 class="text-2xl font-bold text-center mb-4 text-red-700">តម្លៃប៉ាន់ស្មានសម្រាប់៖ "${priceInfo.productName}"</h3>
+                        <div classs="text-center">
+                            <p class="text-4xl font-bold text-gray-900">${priceInfo.estimatedPrice}</p>
+                            <p class="text-gray-600">(${priceInfo.priceRange})</p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-red-200">
+                            <h4 class="font-semibold text-gray-800">ការវិភាគទីផ្សារ៖</h4>
+                            <p class="text-gray-700">${priceInfo.analysis}</p>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-4">
+                            <strong>ការបដិសេធ៖</strong> តម្លៃនេះគឺជាការប៉ាន់ស្មានដោយ AI ពីប្រភពសាធារណៈ និងអាចប្រែប្រួល។
+                        </p>
+                        `; priceResultsDiv.innerHTML = resultsHTML; priceResultsDiv.classList.remove('hidden'); } catch (error) { console.error("Error fetching AI price info:", error); priceResultsDiv.innerHTML = `
+                        <p class="text-red-600 font-semibold">មានបញ្ហាក្នុងការទាក់ទង AI។ សូមព្យាយាមម្តងទៀត។</p>`; priceResultsDiv.classList.remove('hidden'); } finally { priceLoadingSpinner.classList.add('hidden'); findPriceButton.disabled = false; findPriceButton.classList.remove('opacity-75');
+                        } }); } // --- NEW: AI PRICE SUGGESTION API CALL --- async function getAiPriceSuggestion(productName) { const apiKey = "AIzaSyBFsZOA7uK4kb0nFign9q_o-HxImjgQW8A"; // Provided by environment const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+                        const systemPrompt = "You are a Cambodian market analyst AI. Your job is to estimate the current price for a product in Cambodia based on your internal knowledge. You must respond in JSON."; // CHANGED - Removed 'Google Search
+                        grounding' const userQuery = `Estimate the current market price for "${productName}" in Cambodia. Provide the product name, a single estimated price (e.g., "$150" or "150,000៛"), a price range (e.g., "$145 - $155"), and a brief
+                        1-2 sentence analysis of the market.`; // CHANGED - "Find" to "Estimate" const payload = { // tools: [{ "google_search": {} }], // REMOVED - This was likely causing the 401 Unauthorized error. systemInstruction: { parts: [{ text:
+                        systemPrompt }] }, contents: [{ parts: [{ text: userQuery }] }], generationConfig: { responseMimeType: "application/json", responseSchema: { type: "OBJECT", properties: { "productName": { "type": "STRING" }, "estimatedPrice": {
+                        "type": "STRING", "description": "A single estimated price, e.g., '$1,200'" }, "priceRange": { "type": "STRING", "description": "The likely price range, e.g., '$1,150 - $1,250'" }, "analysis": { "type": "STRING", "description":
+                        "1-2 sentence market analysis in Khmer." } }, required: ["productName", "estimatedPrice", "priceRange", "analysis"] } } }; // ... (Exponential backoff logic) ... let response; let retries = 3; let delay = 1000; while (retries >
+                        0) { try { response = await fetch(apiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) }); if (response.ok) break; if (response.status === 429 || response.status >= 500) { if
+                        (retries === 1) throw new Error(`API call failed with status: ${response.status}`); await new Promise(resolve => setTimeout(resolve, delay)); delay *= 2; } else { throw new Error(`API call failed with status: ${response.status}`);
+                        } } catch (error) { if (retries === 1) throw error; await new Promise(resolve => setTimeout(resolve, delay)); delay *= 2; } retries--; } if (!response || !response.ok) throw new Error(`API call failed after retries.`); // ... (End
+                        of backoff logic) ... const result = await response.json(); if (result.candidates?.[0]?.content?.parts?.[0]?.text) { return JSON.parse(result.candidates[0].content.parts[0].text); } else { console.error("Invalid API response structure:",
+                        result); throw new Error("AI did not return valid price information."); } } // --- TELEGRAM FORM SENDER --- const telegramForm = document.getElementById('telegram-form'); const sendMessageButton = document.getElementById('send-message-button');
+                        const formSuccessMessage = document.getElementById('form-success-message'); const formErrorMessage = document.getElementById('form-error-message'); // User's provided variables //bot token var telegram_bot_id = "8273106488:AAHHTDMqoZemCK563T-YQMB4arMYl5Ntq-w";
+                        //chat id var chat_id = 1126254088; if (telegramForm) { telegramForm.addEventListener('submit', async (e) => { e.preventDefault(); // Prevent default form submission sendMessageButton.disabled = true; sendMessageButton.classList.add('opacity-75');
+                        formSuccessMessage.classList.add('hidden'); formErrorMessage.classList.add('hidden'); const nameInput = document.getElementById("name"); const emailInput = document.getElementById("email"); const messageInput = document.getElementById("message");
+                        const u_name = nameInput.value; const email = emailInput.value; const messageText = messageInput.value; const message = `Name: ${u_name}\nEmail: ${email}\nMessage: ${messageText}`; const url = `https://api.telegram.org/bot${telegram_bot_id}/sendMessage`;
+                        try { const response = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ chat_id: chat_id, text: message }) }); const result = await response.json(); if (response.ok && result.ok)
+                        { console.log(result); formSuccessMessage.classList.remove('hidden'); nameInput.value = ""; emailInput.value = ""; messageInput.value = ""; } else { throw new Error(result.description || "Failed to send message"); } } catch (error)
+                        { console.error("Telegram Send Error:", error); formErrorMessage.textContent = `មានបញ្ហាក្នុងការផ្ញើសារ៖ ${error.message}`; formErrorMessage.classList.remove('hidden'); } finally { sendMessageButton.disabled = false; sendMessageButton.classList.remove('opacity-75');
+                        } }); } }); // End of DOMContentLoaded
     </script>
 
 
 </body>
-</html>
 
+</html>
